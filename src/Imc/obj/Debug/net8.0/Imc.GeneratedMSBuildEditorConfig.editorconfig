@@ -13,43 +13,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Imc
 build_property.RootNamespace = Imc
-build_property.ProjectDir = C:\Balta\carnacode-balta-2024-desafio-02\src2\Imc\
+build_property.ProjectDir = C:\Balta\carnacode-balta-2024-desafio-02\src\Imc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Balta\carnacode-balta-2024-desafio-02\src2\Imc
+build_property.MSBuildProjectDirectory = C:\Balta\carnacode-balta-2024-desafio-02\src\Imc
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Balta/carnacode-balta-2024-desafio-02/src2/Imc/App.razor]
+[C:/Balta/carnacode-balta-2024-desafio-02/src/Imc/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Balta/carnacode-balta-2024-desafio-02/src2/Imc/Components/Buttons/CalcularImcButton.razor]
+[C:/Balta/carnacode-balta-2024-desafio-02/src/Imc/Components/Buttons/CalcularImcButton.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCdXR0b25zXENhbGN1bGFySW1jQnV0dG9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Balta/carnacode-balta-2024-desafio-02/src2/Imc/Components/Buttons/EntenderCalculoButton.razor]
+[C:/Balta/carnacode-balta-2024-desafio-02/src/Imc/Components/Buttons/EntenderCalculoButton.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xCdXR0b25zXEVudGVuZGVyQ2FsY3Vsb0J1dHRvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Balta/carnacode-balta-2024-desafio-02/src2/Imc/Pages/CalcularImc.razor]
+[C:/Balta/carnacode-balta-2024-desafio-02/src/Imc/Pages/CalcularImc.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsY3VsYXJJbWMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Balta/carnacode-balta-2024-desafio-02/src2/Imc/_Imports.razor]
+[C:/Balta/carnacode-balta-2024-desafio-02/src/Imc/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Balta/carnacode-balta-2024-desafio-02/src2/Imc/Components/Modals/ValidarInputsImc.razor]
+[C:/Balta/carnacode-balta-2024-desafio-02/src/Imc/Components/Modals/ValidarInputsImc.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNb2RhbHNcVmFsaWRhcklucHV0c0ltYy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-8th5coo8ke
 
-[C:/Balta/carnacode-balta-2024-desafio-02/src2/Imc/Layout/MainLayout.razor]
+[C:/Balta/carnacode-balta-2024-desafio-02/src/Imc/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-j6tei9dcxl
 
-[C:/Balta/carnacode-balta-2024-desafio-02/src2/Imc/Layout/NavMenu.razor]
+[C:/Balta/carnacode-balta-2024-desafio-02/src/Imc/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-zgyv77ewwo

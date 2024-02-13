@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "344Bqq34AreFR+GsV+I4Ig28ptJM20xiD86v64v5jEk7r9b+iVeGwRVUKSZvDUxjubzGjy2Ka0wNNmUHhRCpOQ==",
+  "dgSpecHash": "S+KYvNQIzf8toLUhr+DO1GDmJUbdJAB3+1P/XXGzxpSGJuAFGOIHYWtpLQsWeu5CrPciBKTFx8bL83UltoPA2A==",
   "success": true,
-  "projectFilePath": "C:\\Balta\\carnacode-balta-2024-desafio-02\\src2\\Imc\\Imc.csproj",
+  "projectFilePath": "C:\\Balta\\carnacode-balta-2024-desafio-02\\src\\Imc\\Imc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natha\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.1\\microsoft.aspnetcore.authorization.8.0.1.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.1\\microsoft.aspnetcore.components.8.0.1.nupkg.sha512",

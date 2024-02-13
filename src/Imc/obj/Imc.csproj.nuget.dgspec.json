@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Balta\\carnacode-balta-2024-desafio-02\\src2\\Imc\\Imc.csproj": {}
+    "C:\\Balta\\carnacode-balta-2024-desafio-02\\src\\Imc\\Imc.csproj": {}
   },
   "projects": {
-    "C:\\Balta\\carnacode-balta-2024-desafio-02\\src2\\Imc\\Imc.csproj": {
+    "C:\\Balta\\carnacode-balta-2024-desafio-02\\src\\Imc\\Imc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Balta\\carnacode-balta-2024-desafio-02\\src2\\Imc\\Imc.csproj",
+        "projectUniqueName": "C:\\Balta\\carnacode-balta-2024-desafio-02\\src\\Imc\\Imc.csproj",
         "projectName": "Imc",
-        "projectPath": "C:\\Balta\\carnacode-balta-2024-desafio-02\\src2\\Imc\\Imc.csproj",
+        "projectPath": "C:\\Balta\\carnacode-balta-2024-desafio-02\\src\\Imc\\Imc.csproj",
         "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "C:\\Balta\\carnacode-balta-2024-desafio-02\\src2\\Imc\\obj\\",
+        "outputPath": "C:\\Balta\\carnacode-balta-2024-desafio-02\\src\\Imc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,12 +1,9 @@
 ﻿@using Imc.Services
 @using Imc.Models
 @using Imc.Components.Buttons
-@using Imc.Components.Modals
 @page "/"
 @page "/calcular-imc"
 @inject ImcService ImcService
-
-<ValidarInputsImc @ref="validarInputsImcModal" />
 
 <div class="container">
     <header>
@@ -38,8 +35,7 @@
     private string? sexo;
     private bool idade;
     private string? mensagemResultado;
-    private ValidarInputsImc validarInputsImcModal;
-    
+
     private async Task CalcularIMC()
     {
         if (imcModel.Altura.HasValue && imcModel.Peso.HasValue && !string.IsNullOrWhiteSpace(sexo))
@@ -49,7 +45,7 @@
         }
         else
         {
-            validarInputsImcModal?.ShowModal();
+            mensagemResultado = "Por favor preencha todos os campos!";
         }
     }
 
