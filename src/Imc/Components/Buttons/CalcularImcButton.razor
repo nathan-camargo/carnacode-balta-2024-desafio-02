@@ -1,0 +1,6 @@
+﻿<button @onclick="OnClick" class="calcular-imc">Calcular meu IMC</button>
+
+@code {
+    [Parameter]
+    public EventCallback OnClick { get; set; }
+}

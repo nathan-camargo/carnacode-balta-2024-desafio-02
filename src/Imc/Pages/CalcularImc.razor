@@ -1,0 +1,60 @@
+﻿@using Imc.Services
+@using Imc.Models
+@using Imc.Components.Buttons
+@using Imc.Components.Modals
+@page "/"
+@page "/calcular-imc"
+@inject ImcService ImcService
+
+<ValidarInputsImc @ref="validarInputsImcModal" />
+
+<div class="container">
+    <header>
+        <h1>Cálculo de IMC</h1>
+    </header>
+    <EditForm Model="@imcModel" class="imc-form">
+        <InputNumber id="altura" @bind-Value="@imcModel.Altura" placeholder="Altura"/>
+        <InputNumber id="peso" @bind-Value="@imcModel.Peso" placeholder="Peso"/>
+        <InputSelect id="sexo" @bind-Value="sexo">
+            <option value="" disabled selected hidden>Sexo</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </InputSelect>
+        <label class="checkbox-label">
+            <InputCheckbox id="idade" @bind-Value="idade" class="input-checkbox"/>
+            Eu tenho 65 anos ou mais
+        </label>
+        <CalcularImcButton OnClick="@CalcularIMC"></CalcularImcButton>
+        <EntenderCalculoButton OnClick="@EntenderCalculo"></EntenderCalculoButton>
+    </EditForm>
+    @if (!string.IsNullOrWhiteSpace(mensagemResultado))
+    {
+        <p class="resultado-imc">@mensagemResultado</p>
+    }
+</div>
+
+@code {
+    private ImcModel imcModel = new ImcModel();
+    private string? sexo;
+    private bool idade;
+    private string? mensagemResultado;
+    private ValidarInputsImc validarInputsImcModal;
+    
+    private async Task CalcularIMC()
+    {
+        if (imcModel.Altura.HasValue && imcModel.Peso.HasValue && !string.IsNullOrWhiteSpace(sexo))
+        {
+            var (imc, categoria) = ImcService.CalcularImcECategoria(imcModel.Altura.Value, imcModel.Peso.Value);
+            mensagemResultado = $"Seu IMC é {imc:F2}. Isso indica que você está na categoria: {categoria}.";
+        }
+        else
+        {
+            validarInputsImcModal?.ShowModal();
+        }
+    }
+
+    private void EntenderCalculo()
+    {
+        mensagemResultado = ImcService.ObterExplicacao();
+    }
+}

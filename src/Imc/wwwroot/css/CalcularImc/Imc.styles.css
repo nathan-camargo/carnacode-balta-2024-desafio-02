@@ -1,0 +1,163 @@
+﻿/* Estilos básicos e reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+}
+
+/* Cabeçalho */
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* Formulário e elementos de input */
+.imc-form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.imc-form input,
+.imc-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #BDBDBD;
+    opacity: 0.5;
+}
+
+.imc-form input::placeholder,
+.imc-form select::placeholder {
+    opacity: 0.9;
+    color: #BDBDBD;
+}
+
+.imc-form button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.calcular-imc {
+    background-color: #45FEFE;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 550;
+    border: none;
+}
+
+.calcular-imc:hover {
+    background-color: #3acfcf;
+}
+
+.entender-calculo {
+    background-color: #FFFFFF;
+    color: black;
+    border: 2px solid #45FEFE;
+    font-weight: 550;
+}
+
+.entender-calculo:hover {
+    background-color: #e6f7f7;
+}
+
+.imc-form label {
+    font-size: 0.8em;
+    color: #666;
+    opacity: 0.8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.imc-form .checkbox-label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    cursor: pointer;
+    width: 5.5rem;
+}
+
+.imc-form .input-checkbox {
+    margin-right: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.imc-form label input[type=checkbox] {
+    margin-right: 0.5rem;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    -moz-appearance: textfield;
+}
+
+.input::-webkit-inner-spin-button,
+.input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .imc-form input,
+    .imc-form select,
+    .imc-form button {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    header h1 {
+        font-size: 1.9em;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    animation: fadeIn 1s ease-in-out;
+}
